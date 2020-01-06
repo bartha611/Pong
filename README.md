@@ -1,2 +1,0 @@
-# Pong
-Created with CodeSandbox

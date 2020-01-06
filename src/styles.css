@@ -1,0 +1,78 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+#playerCourt {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: green;
+  border-right: 2px solid white;
+  border-right-style: dashed;
+}
+#ball {
+  z-index: 20;
+  position: absolute;
+  background: yellow;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 300px;
+  left: 300px;
+}
+#computerCourt {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: blue;
+}
+#player {
+  width: 10px;
+  height: 100px;
+  background: black;
+  position: absolute;
+  top: 350px;
+  left: 0;
+}
+#computer {
+  width: 10px;
+  height: 100px;
+  background: black;
+  position: absolute;
+  top: 350px;
+  right: 0;
+}
+#playerScore {
+  font-size: 100px;
+  text-align: center;
+}
+#computerScore {
+  font-size: 100px;
+  text-align: center;
+}
+button {
+  padding: 5px 20px 5px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#start {
+  background: green;
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+}
+#stop {
+  position: absolute;
+  background: red;
+  bottom: 0;
+  left: 200px;
+}
